@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6805DD5B1C48C356006C21B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6805DD5A1C48C356006C21B3 /* main.m */; };
+		6805DD5E1C48C356006C21B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6805DD5D1C48C356006C21B3 /* AppDelegate.m */; };
+		6805DD611C48C356006C21B3 /* ZWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6805DD601C48C356006C21B3 /* ZWViewController.m */; };
+		6805DD661C48C356006C21B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6805DD651C48C356006C21B3 /* Assets.xcassets */; };
+		6805DD691C48C356006C21B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6805DD671C48C356006C21B3 /* LaunchScreen.storyboard */; };
+		6805DD721C48C948006C21B3 /* ZWAddressItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 6805DD711C48C948006C21B3 /* ZWAddressItems.m */; };
+		68DF21541C48DBD0008CC43C /* ZWAddressBookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DF21531C48DBD0008CC43C /* ZWAddressBookCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6805DD561C48C356006C21B3 /* ZWSendMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWSendMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6805DD5A1C48C356006C21B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6805DD5C1C48C356006C21B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6805DD5D1C48C356006C21B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6805DD5F1C48C356006C21B3 /* ZWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWViewController.h; sourceTree = "<group>"; };
+		6805DD601C48C356006C21B3 /* ZWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWViewController.m; sourceTree = "<group>"; };
+		6805DD651C48C356006C21B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6805DD681C48C356006C21B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6805DD6A1C48C356006C21B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6805DD701C48C948006C21B3 /* ZWAddressItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAddressItems.h; sourceTree = "<group>"; };
+		6805DD711C48C948006C21B3 /* ZWAddressItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAddressItems.m; sourceTree = "<group>"; };
+		68DF21521C48DBD0008CC43C /* ZWAddressBookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAddressBookCell.h; sourceTree = "<group>"; };
+		68DF21531C48DBD0008CC43C /* ZWAddressBookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAddressBookCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6805DD531C48C356006C21B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6805DD4D1C48C356006C21B3 = {
+			isa = PBXGroup;
+			children = (
+				6805DD581C48C356006C21B3 /* ZWSendMessage */,
+				6805DD571C48C356006C21B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6805DD571C48C356006C21B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6805DD561C48C356006C21B3 /* ZWSendMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6805DD581C48C356006C21B3 /* ZWSendMessage */ = {
+			isa = PBXGroup;
+			children = (
+				6805DD5C1C48C356006C21B3 /* AppDelegate.h */,
+				6805DD5D1C48C356006C21B3 /* AppDelegate.m */,
+				6805DD5F1C48C356006C21B3 /* ZWViewController.h */,
+				6805DD601C48C356006C21B3 /* ZWViewController.m */,
+				6805DD701C48C948006C21B3 /* ZWAddressItems.h */,
+				6805DD711C48C948006C21B3 /* ZWAddressItems.m */,
+				68DF21521C48DBD0008CC43C /* ZWAddressBookCell.h */,
+				68DF21531C48DBD0008CC43C /* ZWAddressBookCell.m */,
+				6805DD651C48C356006C21B3 /* Assets.xcassets */,
+				6805DD671C48C356006C21B3 /* LaunchScreen.storyboard */,
+				6805DD6A1C48C356006C21B3 /* Info.plist */,
+				6805DD591C48C356006C21B3 /* Supporting Files */,
+			);
+			path = ZWSendMessage;
+			sourceTree = "<group>";
+		};
+		6805DD591C48C356006C21B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6805DD5A1C48C356006C21B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6805DD551C48C356006C21B3 /* ZWSendMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6805DD6D1C48C356006C21B3 /* Build configuration list for PBXNativeTarget "ZWSendMessage" */;
+			buildPhases = (
+				6805DD521C48C356006C21B3 /* Sources */,
+				6805DD531C48C356006C21B3 /* Frameworks */,
+				6805DD541C48C356006C21B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWSendMessage;
+			productName = ZWSendMessage;
+			productReference = 6805DD561C48C356006C21B3 /* ZWSendMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6805DD4E1C48C356006C21B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZZWU;
+				TargetAttributes = {
+					6805DD551C48C356006C21B3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6PPN33URL5;
+					};
+				};
+			};
+			buildConfigurationList = 6805DD511C48C356006C21B3 /* Build configuration list for PBXProject "ZWSendMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6805DD4D1C48C356006C21B3;
+			productRefGroup = 6805DD571C48C356006C21B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6805DD551C48C356006C21B3 /* ZWSendMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6805DD541C48C356006C21B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6805DD691C48C356006C21B3 /* LaunchScreen.storyboard in Resources */,
+				6805DD661C48C356006C21B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6805DD521C48C356006C21B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6805DD721C48C948006C21B3 /* ZWAddressItems.m in Sources */,
+				6805DD611C48C356006C21B3 /* ZWViewController.m in Sources */,
+				68DF21541C48DBD0008CC43C /* ZWAddressBookCell.m in Sources */,
+				6805DD5E1C48C356006C21B3 /* AppDelegate.m in Sources */,
+				6805DD5B1C48C356006C21B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6805DD671C48C356006C21B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6805DD681C48C356006C21B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6805DD6B1C48C356006C21B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6805DD6C1C48C356006C21B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6805DD6E1C48C356006C21B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWSendMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzwu.ZWSendMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6805DD6F1C48C356006C21B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZWSendMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzwu.ZWSendMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6805DD511C48C356006C21B3 /* Build configuration list for PBXProject "ZWSendMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6805DD6B1C48C356006C21B3 /* Debug */,
+				6805DD6C1C48C356006C21B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6805DD6D1C48C356006C21B3 /* Build configuration list for PBXNativeTarget "ZWSendMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6805DD6E1C48C356006C21B3 /* Debug */,
+				6805DD6F1C48C356006C21B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6805DD4E1C48C356006C21B3 /* Project object */;
+}
